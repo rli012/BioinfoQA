@@ -15,6 +15,6 @@ General Rule:
 (3) Yet even an easier method is to look at the N_noFeature line for the 3rd and 4th column and pick the column with the lowest count.  
 
 Other refrerences  
-[STAR Manual](https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf)
-[HTSeq Manual](https://htseq.readthedocs.io/en/release_0.11.1/count.html)
-[Biostar: Explain STAR quantMode geneCounts values](https://www.biostars.org/p/218995/)
+[STAR Manual](https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf)  
+[HTSeq Manual](https://htseq.readthedocs.io/en/release_0.11.1/count.html)  
+[Biostar: Explain STAR quantMode geneCounts values](https://www.biostars.org/p/218995/)  

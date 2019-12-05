@@ -23,7 +23,7 @@ Other refrerences
 
 ## sratools
 
-[1: fasterq-dump.2.9.6 err: unknown while writing file within file system module - unknown system error errno='Disk quota exceeded(122)']  
+[1: Question: fasterq-dump.2.9.6 err: unknown while writing file within file system module - unknown system error errno='Disk quota exceeded(122)'](https://github.com/ncbi/sra-tools/issues/222)  
 Reasons:  
 Does not have enough space to store the temporary data. By default, the temporary data is downloaded in the home folder (($HOME/ncbi/public/sra).  
 

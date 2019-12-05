@@ -28,7 +28,9 @@ Reasons:
 Does not have enough space to store the temporary data. By default, the temporary data is downloaded in the home folder (($HOME/ncbi/public/sra).  
 
 Solution:  
-add the *-t* parameter, eg., *fasterq-dump $FILE -t tmp/*  
+1. add the *-t* parameter, eg., *fasterq-dump $FILE -t tmp/*  
+OR
+2. configure the toolkit (*vdb-config -i*); change the directory for CACHE  
 
 Other refrerences  
 [The default path for downloading SRA data](http://databio.org/posts/downloading_sra_data.html)  

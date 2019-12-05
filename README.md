@@ -18,3 +18,18 @@ Other refrerences
 [STAR Manual](https://github.com/alexdobin/STAR/blob/master/doc/STARmanual.pdf)  
 [HTSeq Manual](https://htseq.readthedocs.io/en/release_0.11.1/count.html)  
 [Biostar: Explain STAR quantMode geneCounts values](https://www.biostars.org/p/218995/)  
+
+
+
+## sratools
+
+[1: fasterq-dump.2.9.6 err: unknown while writing file within file system module - unknown system error errno='Disk quota exceeded(122)']
+Reasons:  
+Does not have enough space to store the temporary data. By default, the temporary data is downloaded in the home folder (($HOME/ncbi/public/sra).  
+
+Solution:  
+add the *-t* parameter, eg., *fasterq-dump $FILE -t tmp/*  
+
+Other refrerences  
+[The default path for downloading SRA data](http://databio.org/posts/downloading_sra_data.html)  
+[HowTo: fasterq dump](https://github.com/ncbi/sra-tools/wiki/HowTo:-fasterq-dump)  
